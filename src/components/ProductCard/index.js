@@ -51,28 +51,28 @@ const ProductCard = ({}) => {
   return (
     <div className="productCard">
       <div className="hero">
-        <img src={productThumbnail} />
+        <img src={productThumbnail} / >
       </div>
       <div className="productDetails">
         <ul>
           <li >
-            <h1 >
+            <h1 style={{color:"white"}}>
               {productName}
             </h1>
           </li>
           <li>
-            <span >
-              £{productPrice}
+            <span style={{color:"white"}}>
+            ₹{productPrice}
             </span>
           </li>
           <li>
             <div className="addToCart">
-              <Button {...configAddToCartBtn} onClick={() => handleAddToCart(product)}>
+              <Button {...configAddToCartBtn} onClick={() => handleAddToCart(product)} style={{color:"black",backgroundColor:"white"}}>
                 Add to cart
               </Button>
             </div>
           </li>
-          <li>
+          <li style={{color:"white"}}>
             <span
               className="desc"
               dangerouslySetInnerHTML={{ __html: productDesc }} />

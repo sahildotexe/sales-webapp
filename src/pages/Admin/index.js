@@ -17,7 +17,7 @@ const Admin = props => {
   const { products } = useSelector(mapState);
   const dispatch = useDispatch();
   const [hideModal, setHideModal] = useState(true);
-  const [productCategory, setProductCategory] = useState('mens');
+  const [productCategory, setProductCategory] = useState('electronics');
   const [productName, setProductName] = useState('');
   const [productThumbnail, setProductThumbnail] = useState('');
   const [productPrice, setProductPrice] = useState(0);
@@ -40,7 +40,7 @@ const Admin = props => {
 
   const resetForm = () => {
     setHideModal(true);
-    setProductCategory('mens');
+    setProductCategory('electronics');
     setProductName('');
     setProductThumbnail('');
     setProductPrice(0);
@@ -100,11 +100,17 @@ const Admin = props => {
             <FormSelect
               label="Category"
               options={[{
-                value: "mens",
-                name: "Mens"
+                value: "electronics",
+                name: "ELectronics"
               }, {
-                value: "womens",
-                name: "Womens"
+                value: "furniture",
+                name: "Furniture"
+              },{
+                value: "book",
+                name: "Book"
+              },{
+                value: "tool",
+                name: "Tool"
               }]}
               handleChange={e => setProductCategory(e.target.value)}
             />
@@ -179,7 +185,7 @@ const Admin = props => {
                             {productName}
                           </td>
                           <td style={{color:"white"}}>
-                            £{productPrice}
+                          ₹{productPrice}
                           </td>
                           <td>
                             <Button onClick={() => dispatch(deleteProductStart(documentID))} style={{color:"red"}}>

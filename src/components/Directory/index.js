@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ShopMen from './../../assets/shopMens.jpg';
-import ShopWomen from './../../assets/shopWomens.jpg';
+
 import './styles.scss';
 import Homeimg from './../../assets/homepage.png'
 import Button from '@material-ui/core/Button';

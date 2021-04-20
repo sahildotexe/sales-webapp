@@ -32,7 +32,7 @@ const Product = (product) => {
     <div className="product">
       <div className="thumb">
         <Link to={`/product/${documentID}`}>
-          <img src={productThumbnail} alt={productName} />
+          <img src={productThumbnail} alt={productName} style={{height:"200px",width:"200px"}}/>
         </Link>
       </div>
 

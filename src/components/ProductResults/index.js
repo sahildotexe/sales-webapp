@@ -34,7 +34,7 @@ const ProductResults = ({ }) => {
   if (data.length < 1) {
     return (
       <div className="products">
-        <p>
+        <p style={{color:"white"}}>
           No search results.
         </p>
       </div>
@@ -47,12 +47,18 @@ const ProductResults = ({ }) => {
       name: 'Show all',
       value: ''
     }, {
-      name: 'Mens',
-      value: 'mens'
+      name: 'Electronics',
+      value: 'electronics'
     }, {
-      name: 'Womens',
-      value: 'womens'
-    }],
+      name: 'Furniture',
+      value: 'furniture'
+    },{
+      name: 'Tools',
+      value: 'tool'
+    },{
+      name: 'Books',
+      value: 'book'
+    },],
     handleChange: handleFilter
   };
 

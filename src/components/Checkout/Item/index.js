@@ -37,7 +37,7 @@ const Item = (product) => {
       <tbody>
         <tr>
           <td>
-            <img src={productThumbnail} alt={productName} />
+            <img src={productThumbnail} alt={productName} style={{height:"50px",width:"50px"}} />
           </td>
           <td>
             {productName}
