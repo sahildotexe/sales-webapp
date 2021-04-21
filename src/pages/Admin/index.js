@@ -82,8 +82,8 @@ const Admin = props => {
       <div className="callToActions">
         <ul>
           <li>
-            <Button onClick={() => toggleModal()}>
-              Add new product
+            <Button onClick={() => toggleModal()} style={{color:"black",backgroundColor:"white",fontSize:"40px"}}>
+              +
             </Button>
           </li>
         </ul>
