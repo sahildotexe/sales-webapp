@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "--Firebase Project Name--"
+    "default": "sales-website-ba954",
+    "webapp": "sales-website-ba954"
   }
 }
