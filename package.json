@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "11.12.0"
+    "node": "12.x"
   },
   "dependencies": {
     "@firebase/firestore": "^2.2.4",
