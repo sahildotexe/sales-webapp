@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "sales-website-ba954",
-    "staging": "sales-website-ba954"
+    "staging": "sales-website-ba954",
+    "webapp": "sales-website-ba954"
   }
 }
