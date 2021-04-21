@@ -14,7 +14,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.21.1",
     "ckeditor4-react": "^1.2.0",
-    "firebase": "^7.24.0",
+    "firebase": "^4.12.1",
     "firebase-admin": "5.4.0",
     "firebase-functions": "0.7.0",
     "moment": "^2.29.1",
